@@ -1,0 +1,49 @@
+* {
+  color: rgb(139, 139, 139);
+}
+button {
+  background-color: beige;
+}
+#login {
+  background-color: rgb(80, 44, 44);
+}
+span {
+  background-color: aqua;
+}
+.tag {
+  background-color: antiquewhite;
+  font-size: 12px;
+}
+span a {
+  color: black;
+}
+input + button {
+  color: pink;
+}
+h2 + button {
+  font-size: 20pcx;
+  background-color: rgb(255, 42, 14);
+}
+footer a {
+  color: rgb(240, 48, 0);
+}
+footer > a {
+  color: yellow;
+}
+input[type="Password"] {
+  color: greenyellow;
+}
+button:hover {
+  background-color: red;
+}
+a:hover {
+  text-decoration: line-through;
+}
+h1,
+h2 {
+  color: red;
+}
+/* tüm butonların hepsini mavi renk yapma */
+/* button {
+  background-color: blue !important;
+} */
